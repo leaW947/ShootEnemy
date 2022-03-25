@@ -43,13 +43,13 @@ class Player:
         ######Collision with screen edges #############
         if self.vy != 0:
 
-            if self.sprite.y < 0:
-                self.sprite.y = 0
+            if self.sprite.y < 0+(self.sprite.image.get_height()/2):
+                self.sprite.y = 0+(self.sprite.image.get_height()/2)
                 self.vy = 0
 
-            elif self.sprite.y + self.sprite.image.get_height() > self.gameplayService.screen.get_height():
+            elif self.sprite.y + self.sprite.image.get_height()+(self.sprite.image.get_height()/2) > self.gameplayService.screen.get_height():
 
-                self.sprite.y = self.gameplayService.screen.get_height() - self.sprite.image.get_height()
+                self.sprite.y = (self.gameplayService.screen.get_height() - self.sprite.image.get_height())-(self.sprite.image.get_height()/2)
                 self.vy = 0
 
 
