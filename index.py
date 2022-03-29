@@ -5,8 +5,6 @@ import main
 screen=pygame.display.set_mode((800,600))
 pygame.display.set_caption("ShootEnemy")
 
-pygame.Surface.convert_alpha(screen)
-
 #init font
 pygame.font.init()
 #init mixer
@@ -37,7 +35,6 @@ def run():
         lastUpdate = now
 
         screen.fill([0,0,0])
-        screen.convert()
 
         main.update(dt)
         main.draw()
