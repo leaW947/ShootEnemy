@@ -48,7 +48,7 @@ class SceneGame:
         self.myBackground=scrollingBackground.ScrollingBackground(self.gameplayService)
 
         font=pygame.font.Font("fonts/Minecraft.ttf",30)
-        self.textScore=self.gameplayService.GUI.createText(self.gameplayService.screen.get_width()-200,
+        self.textScore=self.gameplayService.GUI.createText(self.gameplayService.screen.get_width()-(self.gameplayService.screen.get_width()/3.3),
                                                             self.gameplayService.screen.get_height()-40,font,
                                                            [0,255,0],"score = 0")
 
