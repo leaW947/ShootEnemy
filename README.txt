@@ -27,7 +27,8 @@ vers notre personnage. Quand l'ennemi arrive au bout de l'écran(à gauche), il
 s'arrête et ce pose là.
 Si il y a plusieurs ennemies qui ce posent, Les ennemies ce posent les uns au dessus 
 des autres(comme des tortues :)).
-
+	-----------
+	
 Si notre personnage touche un ennemie(quand l'ennemie est posé donc), il meurt.
 Dans ce cas un écran gameover s'affiche et on peut de là recommencer le jeu du début.
 
