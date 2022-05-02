@@ -1,6 +1,6 @@
 --------Introduction-----------
 
-J'ai réalisé un mini-shooter avec le langage Python et le framework Pygame. J'ai
+J'ai réalisé un mini-shooter avec le langage Python et la librairie Pygame. J'ai
 programmé ce jeu avec l'IDE Pycharm. Pour les graphismes de jeu, je les ai fait
 moi-même avec PixelEdit principalement.
 
